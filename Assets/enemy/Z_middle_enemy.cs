@@ -31,15 +31,15 @@ public class Z_middle_enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        x -= 0.01f;
+        x -= 0.045f;
         y = Mathf.Sin(theta) * 3;
-        
+
 
         transform.position = new Vector3(x, y);
 
-        theta += (2f * Mathf.PI / 360) / 5;
+        theta += (2f * Mathf.PI / 360);
 
-        Destroy(gameObject, 8);
+        Destroy(gameObject, 12);
 
     }
 

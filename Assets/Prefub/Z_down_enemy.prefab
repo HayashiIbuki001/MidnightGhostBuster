@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfbac7324f541b34db1afd4333034d26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 50
   Point: 500
   sound1: {fileID: 8300000, guid: bdf590d106a46c947ba7b8f94704ff91, type: 3}
   effectPrefab: {fileID: 3386480850866455601, guid: 203d63003a0ac2743b5869b501c5864b, type: 3}

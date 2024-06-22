@@ -6,7 +6,7 @@ using UnityEngine;
 public class Z_down_enemy : MonoBehaviour
 {
     private new Rigidbody2D rigidbody;
-    [SerializeField] private float speed = 10f;
+    //[SerializeField] private float speed = 10f;
     [SerializeField] private int Point = 500;
 
     AudioSource audioSource;
@@ -22,7 +22,7 @@ public class Z_down_enemy : MonoBehaviour
     {
         //rigidbodyŽæ“¾
         rigidbody = GetComponent<Rigidbody2D>();
-        rigidbody.AddForce(Vector3.left * speed * 10, ForceMode2D.Force);
+        //rigidbody.AddForce(Vector3.left * speed * 10, ForceMode2D.Force);
 
         //Component‚ðŽæ“¾
         audioSource = GetComponent<AudioSource>();
@@ -31,15 +31,15 @@ public class Z_down_enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        x -= 0.01f;
+        x -= 0.045f;
         y = Mathf.Sin(theta) * 3;
         
 
         transform.position = new Vector3(x, y);
 
-        theta += (2f * Mathf.PI / 360) / 5;
+        theta += (2f * Mathf.PI / 360);
 
-        Destroy(gameObject, 8);
+        Destroy(gameObject, 12);
 
     }
 

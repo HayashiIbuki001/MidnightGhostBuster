@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60106b8d59e16bd448b71367a7dbb8af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdown: 3
+  countdown: 60
   timeText: {fileID: 2121652438}
   FinishText: {fileID: 1368218768}
   finish: 0
@@ -438,7 +438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   n_BulletObj: {fileID: 227664873328394782, guid: 63abba3d558ea8643a3b05cd21a0df38, type: 3}
   s_BulletObj: {fileID: 8605629996302549081, guid: 3c12d07347fa63d4b82cc793f9079918, type: 3}
-  n_cooldown: 0.3
+  n_cooldown: 0.5
   s_cooldown: 1
   damage_cooldown: 3
   charge: 1.5
@@ -1187,9 +1187,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cooldown: 3
   spawn_start: 20
-  Up_z_EnemyObj: {fileID: 5075386605628605668, guid: f021fbf5c8a41a54394b6f14ed222726, type: 3}
+  Up_z_EnemyObj: {fileID: 5075386605628605668, guid: 14121e75ccd56f94c84e07204329c306, type: 3}
   Middle_z_EnemyObj: {fileID: 5075386605628605668, guid: b67df6537a765234b8ed7cbece57dd7e, type: 3}
-  Down_z_EnemyObj: {fileID: 5075386605628605668, guid: 14121e75ccd56f94c84e07204329c306, type: 3}
+  Down_z_EnemyObj: {fileID: 5075386605628605668, guid: f021fbf5c8a41a54394b6f14ed222726, type: 3}
 --- !u!114 &1894013872
 MonoBehaviour:
   m_ObjectHideFlags: 0
