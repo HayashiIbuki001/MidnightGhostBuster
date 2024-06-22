@@ -35,7 +35,7 @@ public class Score : MonoBehaviour
                 PlayerPrefs.Save();
 
                 resultSave = true;
-                Debug.Log("セーブしたよん");
+                Debug.Log("セーブしたよ");
 
                 Score_Text.text = "";
             }
